@@ -1,0 +1,19 @@
+.chatBody__header{
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.chatBody_headerInfo{
+    flex: 1;
+    padding-left: 20px;
+}
+.chatBody_headerInfo > h3{
+    /* margin: 10px 0 5px 0; */
+    margin-bottom: 3px;
+    font-weight: 500;
+}
+.chatBody_headerInfo > p{
+    margin-top: 0;
+    color: gray;
+}

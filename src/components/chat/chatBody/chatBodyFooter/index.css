@@ -1,0 +1,18 @@
+.chatFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+}
+.chatFooter > form{
+    flex: 1;
+    display: flex;
+}
+.chatFooter > form > input{
+    flex: 1;
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    outline-width: 0;   
+}
